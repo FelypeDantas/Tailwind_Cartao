@@ -25,30 +25,38 @@
     </script>
 </head>
 
-<body>
-    <div class="flex w-fit m-auto my-10">
-        <img class="h-44" src="./Bya.jpg" alt="Foto Bya">
-        <div class="p-10 flex flex-col bg-gradient-to-r from-purple-300 to-slate-400 justify-center h-44">
-            <!-- Ajustando o tamanho da fonte do título para ser responsivo -->
-            <p class="text-6xl font-black text-primary font-titulo sm:text-5xl md:text-4xl lg:text-6xl">Byanca Matos</p>
-            <!-- Ajustando o tamanho da fonte da descrição para ser responsivo -->
-            <p class="text-4xl mb-4 sm:text-3xl md:text-2xl">Analista de dados</p>
-            <ul class="flex gap-3 mb-4">
+<body class="bg-gray-100">
+
+    <!-- Container geral -->
+    <div class="flex flex-col sm:flex-row justify-center items-center w-full my-10 px-4">
+
+        <!-- Imagem -->
+        <img class="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-full object-cover mb-6 sm:mb-0 sm:mr-6"
+            src="./Bya.jpg" alt="Foto Bya">
+
+        <!-- Informações do perfil -->
+        <div class="p-6 bg-gradient-to-r from-purple-300 to-slate-400 text-center sm:text-left rounded-lg w-full sm:w-auto">
+            <p class="text-4xl font-black text-primary font-titulo sm:text-5xl md:text-6xl">Byanca Matos</p>
+            <p class="text-3xl mb-4 sm:text-4xl md:text-5xl">Analista de dados</p>
+            
+            <!-- Redes sociais -->
+            <ul class="flex justify-center sm:justify-start gap-4 mb-4">
                 <li>
                     <a href="https://www.linkedin.com/in/byanca-matos-29204b1bb/" target="_blank" title="LinkedIn"
                         class="transition-transform transform hover:scale-110 hover:text-blue-500">
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin fa-2x"></i>
                     </a>
                 </li>
                 <li>
                     <a href="https://github.com/ByancaMatos01" target="_blank" title="GitHub"
                         class="transition-transform transform hover:scale-110 hover:text-gray-800">
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-github fa-2x"></i>
                     </a>
                 </li>
             </ul>
         </div>
     </div>
+
 </body>
 
 </html>
